@@ -30,7 +30,7 @@ public class Switch {
             System.out.println("Invalid Number");
             break;
         }
-   
+   scan.close(); 
     }
     
 }
