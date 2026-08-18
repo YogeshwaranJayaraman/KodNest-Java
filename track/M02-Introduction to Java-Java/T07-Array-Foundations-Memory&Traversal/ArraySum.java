@@ -1,18 +1,19 @@
 import java.util.Scanner;
-
-public class ArrayScanner {
+public class ArraySum {
     public static void main(String[] args) {
-        Scanner doc =new Scanner(System.in);
+        Scanner doc=new Scanner(System.in);
         int[] arr=new int[5];
-        System.out.println("Enter the Array Element: ");
+        int sum=0;
+        System.out.println("Enter the Array Elements");
         for(int i=0;i<=arr.length-1;i++) {
             arr [i]=doc.nextInt();
         }
-        System.out.println("Elements in the Array: ");
         for(int i=0;i<=arr.length-1;i++) {
-            System.out.println(arr[i]);
+            sum=sum+arr[i];
         }
-        doc.close();
+        System.out.println("Total: "+sum);
+        doc.close(); 
     }
     
 }
+    
