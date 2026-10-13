@@ -3,7 +3,7 @@ public class stringAnagram {
     public static void main(String[] args) {
         Scanner doc = new Scanner(System.in);
         System.out.println("Enter the String 1 and String 2: ");
-        String str1=doc.next();
+         String str1=doc.next();
         String str2=doc.next();
             boolean isAnagram=true;
         if(str1.length()!=str2.length()) {
